@@ -1,0 +1,123 @@
+.box{
+    background-color: white;
+    width : 250px;
+    height: 130px;
+    margin: 40px 0px 60px 80px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 2px #A9A9A9;
+    box-sizing: border-box;
+}
+
+.box:hover{
+    box-shadow: 1px 2px 2px 2px gray;
+}
+.box1{
+    width: 40%;
+    float: left;
+    height: 130px;
+   border-radius: 10px 0px 0px 10px;
+}
+#box1{
+     background-color: #f54337;
+    
+}
+
+#box2 {
+    background-color: #ff9800;
+}
+
+#box3{
+     background-color: #2196f3;
+}
+
+#box4 {
+    background-color: #30cc7b;
+}
+
+.boxtext1{
+    float: left;            
+    font-weight: 600;
+    font-size: 18px;
+  color: #A9A9A9;
+    
+    padding: 14px ;
+   border-bottom: 1.5px solid #A9A9A9;
+    
+}
+.boxtext2{
+    float: left;            
+    font-weight: 600;
+    font-size: 18px;
+  color:#A9A9A9;
+   
+    
+}
+.boximg{
+    margin: 30px 0px 0px 20px;
+    width : 60px;
+    height: 60px;
+}
+
+
+
+#b11{
+   margin: 12px 0px 0px 15px; 
+}
+
+#b12{
+     margin: 10px 0px 0px 30px;
+    
+}
+
+#b21{
+   margin: 12px 0px 0px 15px; 
+}
+#b22{
+    font-size: 34px;
+     margin: 10px 0px 0px 50px;
+    
+}
+#b31{
+   margin: 12px 0px 0px 2px; 
+}
+#b32{
+    font-size: 34px;
+     margin: 10px 0px 0px 50px;
+    
+}
+
+.addressdetails{
+    width : 30%;
+    height:  400px;
+    float: left;
+    margin: 50px 0px 50px 2%;
+    padding: 20px 40px;
+   box-shadow: 1px 2px 2px 2px gray;
+    box-sizing: border-box;
+
+}
+.cards{
+    float: left;
+    margin-left: 10px;
+}
+.subbutton{
+    background-color:#30cc7b ;
+    padding: 10px 70px;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    float: left;
+    margin : 20px 0px 0px 15%;
+    
+}
+.orderplaced{
+    box-sizing: border-box;
+    padding: 10px;
+    width : 50%;
+    height : 400px;
+    background-color: white;
+    margin: 40px 25% 100px 25%;
+    box-shadow: 1px 1px 1px 2px gray;
+    border-radius: 10px;
+}

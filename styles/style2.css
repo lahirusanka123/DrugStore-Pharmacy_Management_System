@@ -1,0 +1,446 @@
+
+/* --------------------------this is login page ------------------------------------------ */
+
+
+#loginPic{
+   width: 50%;    
+   margin: 50px 0px 0px 0px;
+   padding: 0px 25px 25px 0px; 
+   float: left;
+   height: auto;
+   
+    
+}
+
+#vEmail,#vPassword{
+     color: red;
+    }
+ #loginForm{
+	   margin: 70px 0px 10px 0px;
+	   float : left;
+       width: 40%; 
+       
+       padding: 0px 0px 0px 1%;
+    }
+
+
+
+.signText{
+    width: 100%;
+    height: 30px;	
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    
+}
+.loginform-back{
+	background-color : white;
+	float : left;
+	padding : 20px 40px 60px 40px;
+	border-radius : 10px;
+	box-shadow : 0px 0px 10px gray;
+	}
+
+
+#loginImg{
+   width: 600px;
+   height: auto;
+   float: right;
+    margin-bottom: -25px;
+}
+
+#signInfont{
+    font-size: 30px;
+     
+}
+
+.pageBody{
+   background-image: url("../images/loginback.png");
+    height: auto;
+    width: 100%;
+	float : left;
+    overflow : hidden;
+	background-color : white;
+    
+}
+.pageBody1{
+ 
+    height: auto;
+    width: 100%;
+	float : left;
+    overflow : hidden;
+	background-color : white;
+    
+}
+
+
+
+
+#signinButton{
+    background-color : #006d96;
+	color : white ;
+	box-sizing: border-box;
+    padding: 12px 15px 12px 15px;
+    border-radius: 10px;
+	margin : 15px 0px 0px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 110px;
+    opacity: 1;
+}
+#signinButton:hover{
+    opacity: 0.8;
+}
+
+#mTable{
+    width:100%;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1060px){
+#loginPic{
+   margin: 20px 10% 0px 10%;
+	 float : left;
+       width: 80%;
+    
+    
+}
+.loginform-back{
+	width : 80%;
+	margin : 0px 10% 7% 10%;
+	box-sizing: border-box;
+}
+ #loginForm{
+	   margin: 20px 3% 10px 3%;
+	 float : left;
+       width: 94%;
+	   
+    }
+	
+#loginImg {
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: -45px;
+    float: left;
+    margin-left: 15%;
+	margin-right: 15%;
+}
+.signText{
+    width: 90%;	
+}
+}
+
+
+/* --------------------------this is sign Up page ------------------------------------------ */
+
+#signUpBody{
+    height: auto;
+	border-radius : 10px;
+    background-color : white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	box-shadow : 0px 0px 10px gray;
+	
+	
+  
+       
+}
+
+.logText{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+     
+    
+}
+.Stext{
+    font-size: 14px;
+    color: #006d96;
+    
+}
+
+#fnameErro,
+#lnameErro, 
+#dateErro, 
+#genderErro, 
+#phoneErro, 
+#emailErro ,
+#pwdErro, 
+#rePwdErro{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#signUpButton{
+    background-color : #006d96;
+	color : white ;
+	box-sizing: border-box;
+    padding: 12px 15px 12px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    opacity: 0.6;
+    float: left;
+	margin-bottom : 20px;
+}
+
+#signUpButton:hover{
+    opacity: 1;
+}
+td.firstinthetable{
+	margin-top : 20px;
+}
+#signUpTable{
+	width : 90%;
+	margin: 0px 5%;
+	}
+ 
+@media only screen and (max-width: 600px) {
+    
+    #signUpBody{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    #signUpTable{
+        width: 90%;
+		margin-left : 5%;
+         
+       
+        
+    }
+	#cartBtn{
+	box-sizing: border-box;
+    padding: 8px 22px 8px 22px;
+   	font-size : 13px;
+	 }
+
+      
+}
+
+ @media only screen and (min-width: 600px) {
+    #signUpBody{
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 5px 0px 5px;
+    }
+     
+} 
+ 
+/*-------------------------------this is My Account page------------------------------------------*/
+#wrap {
+	margin-top : 20px;
+}
+
+
+.mText{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;    
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    
+}
+
+#back{
+         font-size: 17px; 
+         text-decoration: none;
+         margin-left: 37px;
+     } 
+
+ @media only screen and (min-width: 935px) and (max-width: 1305px) {
+     
+     #bDiv{     
+         float: left;
+         width: 100%;
+         margin-left: auto;
+         margin-right:auto;
+     
+     
+}
+     #lDiv{
+        
+        margin-left:25%;
+        margin-right:25%;
+         
+         
+     
+}
+         
+
+  #rDiv{
+       
+        margin-left: 25%;
+        margin-right: 25%;
+         
+     
+}
+} 
+@media only screen and (min-width: 1305px) {
+     
+ #lDiv{
+    width: 500px;
+    float: left;     
+    margin-left: 80px;
+     
+}
+
+#rDiv{
+    width: 500px;
+    float: left;
+    margin-left: 10px;
+     
+}
+
+
+#bDiv{     ;
+     float: left;
+     width: 100%;
+     margin-left: auto;
+     margin-right:auto;
+     margin-top: 40px;
+     
+     
+}
+    #mTable{
+        width: 1150px;
+        margin-left: 40px;
+        box-shadow: 2px 2px 2px 2px gray;
+         
+    }
+    #wrap{
+        box-shadow: 0px 2px 3px 2px gray;         
+        height: 400px;
+        width: 92%;
+        margin-left: 45px;
+        padding-top: 20px;
+         
+    }
+} 
+
+@media only screen and (max-width: 935px) {
+     
+     #bDiv{     
+         float: left;
+         width: 100%;
+         margin-left: auto;
+         margin-right:auto;
+     
+     
+}
+    #lDiv{
+        width: 100%;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+     
+}
+
+  #rDiv{
+        width: 100%;
+        margin-left: 15%;
+        margin-right: 15%;
+         
+}
+     
+     
+}
+
+/*------------------------------------This is adding item page -----------------------------------------------------------*/
+
+.addinform{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    
+}
+
+.addinform:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+     
+}
+.tAddinform{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
+#tLeft{
+    float: left;
+    width: 500px;
+    margin: 30px 30px 30px 60px;
+}
+
+#tRight{
+    width:350px; 
+    float: right;
+    margin: 30px 60px 30px 60px;
+}
+
+#add_itemGrop{
+    background-color: #F4F4F4;
+    width: 1075px;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    box-shadow : 0px 0px 10px gray;
+}
+
+.adingLable{
+    color: #234A93;
+    font-weight: bold;
+}
+
+#additemIMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 180px;
+}
+
+#btn-primary{
+    font-weight: bold;
+}
+#codeErro,
+#nameErro,
+#categoryErro,
+#qtyErro,
+#priceErro,
+#presErro,
+#desErro,
+#imgErro{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
